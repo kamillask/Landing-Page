@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: white;
+    padding: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.firstPane{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstLeft{
+    #header{
+        font-weight: 700;
+        font-size: 36px;
+    }
+    width: 300px;
+}
+
+
+button{
+    background-color: #3882f6;
+    border-radius: 15%;
+    color: white;
+}
